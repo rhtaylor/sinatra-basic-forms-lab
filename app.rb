@@ -9,7 +9,7 @@ class App < Sinatra::Base
     erb :create_puppy 
    end
    post '/puppy'
-   
+    binding.pry
     erb :display_puppy
    end
 end
